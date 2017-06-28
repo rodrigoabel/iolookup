@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 GPIO.setmode(GPIO.BCM)
 
+
 # Create a dictionary called pins to store the pin number, name, and pin state:
 pins = {
    12 : {'name' : 'GPIO 12', 'state' : GPIO.LOW},
