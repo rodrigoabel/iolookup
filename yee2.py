@@ -1,4 +1,4 @@
 from yeelight import Bulb
-bulb = Bulb("192.168.1.35")
+bulb = Bulb("172.24.1.116")
 
 bulb.turn_off()

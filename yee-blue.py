@@ -9,7 +9,7 @@ from yeelight import Bulb
 print "in / out program"
 
 GPIO.setmode(GPIO.BCM)
-bulb = Bulb("192.168.1.35")
+bulb = Bulb("172.24.1.116")
 GPIO.setup(23, GPIO.OUT)
 
 while True:
