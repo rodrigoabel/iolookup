@@ -94,7 +94,7 @@ bind-interfaces      # Bind to the interface to make sure we aren't sending thin
 server=8.8.8.8       # Forward DNS requests to Google DNS
 domain-needed        # Don't forward short names
 bogus-priv           # Never forward addresses in the non-routed address spaces.
-dhcp-range=10.0.0.2,10.0.0.5,255.255.255.0,12h # Assign IP addresses between 172.24.1.50 and 172.24.1.150 with a 12 hour lease time
+dhcp-range=10.0.0.2,10.0.0.100,255.255.255.0,12h # Assign IP addresses between 172.24.1.50 and 172.24.1.150 with a 12 hour lease time
 EOF
 
 echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
